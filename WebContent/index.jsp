@@ -8,7 +8,7 @@
 <meta http-equiv="content-type" content="text/html;charset=UTF-8" />
 <!-- /Added by HTTrack -->
 <head>
-<title>Online Shopping System</title>
+<title>Inventory Management System</title>
 <!-- for-mobile-apps -->
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
@@ -232,11 +232,11 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 			<div class="slide-visual">
 				<!-- Slide Image Area (1000 x 424) -->
 				<ul class="slide-group">
-					<li><img class="img-responsive" src="images/ba1.jpg"
+					<li><img class="img-responsive" src="images/stock.jpg"
 						alt="Dummy Image" /></li>
-					<li><img class="img-responsive" src="images/ba2.jpg"
+					<li><img class="img-responsive" src="images/stock.jpg"
 						alt="Dummy Image" /></li>
-					<li><img class="img-responsive" src="images/ba3.jpg"
+					<li><img class="img-responsive" src="images/stock.jpg"
 						alt="Dummy Image" /></li>
 				</ul>
 
@@ -244,15 +244,15 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 				<div class="script-wrap">
 					<ul class="script-group">
 						<li><div class="inner-script">
-								<img class="img-responsive" src="images/baa1.jpg"
+								<img class="img-responsive" src="images/stock.jpg"
 									alt="Dummy Image" />
 							</div></li>
 						<li><div class="inner-script">
-								<img class="img-responsive" src="images/baa2.jpg"
+								<img class="img-responsive" src="images/stock.jpg"
 									alt="Dummy Image" />
 							</div></li>
 						<li><div class="inner-script">
-								<img class="img-responsive" src="images/baa3.jpg"
+								<img class="img-responsive" src="images/stock.jpg"
 									alt="Dummy Image" />
 							</div></li>
 					</ul>

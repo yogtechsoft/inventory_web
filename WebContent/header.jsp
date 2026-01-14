@@ -5,10 +5,7 @@
 	<ul class="nav navbar-nav menu__list">
 		<li class="active menu__item menu__item--current"><a
 			class="menu__link" href="index.jsp">Home <span class="sr-only">(current)</span></a></li>
-		<li class="active menu__item menu__item"><a class="menu__link"
-			href="mens.jsp">Men / Women WEAR </a></li>
-		<li class=" menu__item"><a class="menu__link"
-			href="electronics.jsp">Electronics</a></li>
+		
 		<li class=" menu__item"><a class="menu__link" href="contact.jsp">Contact</a></li>
 		<%
 			if ((String) session.getAttribute("name") != null) {
@@ -36,9 +33,7 @@
 		<%
 			} else {
 		%>
-		<li class="menu__item"><a class="menu__link"
-			href="customer-login.jsp"><span
-				class="glyphicon glyphicon-user"></span>&nbsp;&nbsp;Login</a></li>
+		
 		<%
 			}
 		%>

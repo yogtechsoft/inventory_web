@@ -6,7 +6,7 @@
 <html class="no-js" lang="">
 <head>
 
-<title>Online Shopping System</title>
+<title>Inventory Management System</title>
 <link rel="stylesheet"
 	href="https://cdn.jsdelivr.net/npm/normalize.css@8.0.0/normalize.min.css">
 <link rel="stylesheet"

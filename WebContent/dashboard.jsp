@@ -15,7 +15,7 @@
 <!--[if IE]>
         <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
         <![endif]-->
-<title>Online Shopping System</title>
+<title>Inventory Management System</title>
 <!-- BOOTSTRAP CORE STYLE  -->
 <link href="assets/css/bootstrap.css" rel="stylesheet" />
 <!-- FONT AWESOME STYLE  -->
@@ -68,7 +68,7 @@
 					<div class="alert alert-info back-widget-set text-center">
 						<i class="fa fa-history fa-5x"></i>
 						<%
-							ResultSet totalProduct=DatabaseConnection.getResultFromSqlQuery("select count(*) from tblproduct");
+							ResultSet totalProduct=DatabaseConnection.getResultFromSqlQuery("select count(*) from tbl_product_inventory");
 							totalProduct.next();
 							int allProducts=totalProduct.getInt(1);
 						%>
@@ -82,7 +82,7 @@
 					<div class="alert alert-success back-widget-set text-center">
 						<i class="fa fa-users fa-5x"></i>
 						<%
-							ResultSet totalCustomer=DatabaseConnection.getResultFromSqlQuery("select count(*) from tblcustomer");
+							ResultSet totalCustomer=DatabaseConnection.getResultFromSqlQuery("select count(*) from tbl_sale_product_details");
 							totalCustomer.next();
 							int allCustomer=totalCustomer.getInt(1);
 						%>
@@ -94,12 +94,12 @@
 					<div class="alert alert-warning back-widget-set text-center">
 						<i class="fa fa-recycle fa-5x"></i>
 						<%
-							ResultSet totalOrders=DatabaseConnection.getResultFromSqlQuery("select count(*) from tblorders");
+							ResultSet totalOrders=DatabaseConnection.getResultFromSqlQuery("select count(*) from tbl_vendor_details");
 							totalOrders.next();
 							int allOrders=totalOrders.getInt(1);
 						%>
 						<h3><%=allOrders %></h3>
-						Total Orders
+						Total Vendor
 					</div>
 				</div>
 				<div class="col-md-3 col-sm-3 col-xs-6">

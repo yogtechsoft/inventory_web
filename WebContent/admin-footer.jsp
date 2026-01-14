@@ -4,8 +4,8 @@
 	<div class="container">
 		<div class="row">
 			<div class="col-md-12">
-				&copy; 2020 Online Shopping System |<a href="http://www.kishorkadam.com/"
-					target="_blank"> Designed by : Kishor Kadam</a>
+				&copy; 2026 Inventory Management System |<a href="https://yogtechsoft.github.io/yogeshwarTechnology/"
+					target="_blank"> Designed by : Yogeshwar Technology & Solution</a>
 			</div>
 
 		</div>

@@ -10,7 +10,7 @@
 <meta http-equiv="content-type" content="text/html;charset=UTF-8" />
 <!-- /Added by HTTrack -->
 <head>
-<title>Online Shopping System</title>
+<title>Inventory Management System</title>
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 <meta name="keywords"
@@ -216,27 +216,26 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 		<div class="container">
 			<h3 class="tittle">Help</h3>
 			<p>
-			<h4>If you want any help regarding project.</h4>
+			<h4>If you want any type software .</h4>
 			</p>
 			<br>
 			<div>
 				<h4 class="section-subheading" align="left">
-					<i class='fas fa-user'>&nbsp;&nbsp;Kishor Kadam</i>
+					<i class='fas fa-user'>&nbsp;&nbsp;Yogeshwar Technology & Solution</i>
 				</h4>
 			</div>
 			<div>
 				<h4 class="section-subheading" align="left">
-					<i class='fas fa-envelope'>&nbsp;&nbsp;kadamk33@gmail.com.</i>
+					<i class='fas fa-envelope'>&nbsp;&nbsp;yogtechsoft@gmail.com.</i>
 				</h4>
 			</div>
 			<div>
 				<h4 class="section-subheading" align="left">
-					<i class='fas fa-phone'>&nbsp;&nbsp;7276763516.</i>
+					<i class='fas fa-phone'>&nbsp;&nbsp;7841076978.</i>
 				</h4>
 			</div>
 			<div>
-				<h4 class="section-subheading" align="left">"Always think
-					different than the world."</h4>
+				<h4 class="section-subheading" align="left">"We Believe in Best Software."</h4>
 			</div>
 		</div>
 	</div>

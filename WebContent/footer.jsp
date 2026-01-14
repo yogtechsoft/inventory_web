@@ -42,14 +42,7 @@
 			<div class="clearfix"></div>
 			<div class="sign-grds">
 				<div class="col-md-4 sign-gd">
-					<h4>Information</h4>
-					<ul>
-						<li><a href="index.jsp">Home</a></li>
-						<li><a href="mens.jsp">Men's Wear</a></li>
-						<li><a href="womens.jsp">Women's Wear</a></li>
-						<li><a href="electronics.jsp">Electronics</a></li>
-						<li><a href="contact.jsp">Contact</a></li>
-					</ul>
+					
 				</div>
 
 				<div class="col-md-4 sign-gd-two">
@@ -58,9 +51,9 @@
 						<li><i class="glyphicon glyphicon-map-marker"
 							aria-hidden="true"></i>Address : Wakad,Pune, <span>India.</span></li>
 						<li><i class="glyphicon glyphicon-envelope"
-							aria-hidden="true"></i>Email : <a href="mailto:info@example.com">xxx@gmail.com</a></li>
+							aria-hidden="true"></i>Email : <a href="mailto:info@example.com">yogtechsoft@gmail.com</a></li>
 						<li><i class="glyphicon glyphicon-earphone"
-							aria-hidden="true"></i>Phone : +0000 000 000</li>
+							aria-hidden="true"></i>Phone : +91 7841076978</li>
 					</ul>
 				</div>
 				<div class="clearfix"></div>
@@ -68,8 +61,8 @@
 		</div>
 		<div class="clearfix"></div>
 		<p class="copy-right">
-			&copy 2020 Online Smart Shop. All rights reserved | Design by <a
-				href="">Puja Nikam</a>
+			&copy 2026 Inventory Management System. All rights reserved | Design by <a
+				href="">Yogeshwar Technology & System</a>
 		</p>
 	</div>
 </div>
