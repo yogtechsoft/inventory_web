@@ -89,7 +89,7 @@
 								</div>
 								<div class="form-group">
 									<label>Email Id</label> <input class="form-control"
-										type="text" style="min-height: 100px;" name="emailId" id="emailId"/>
+										type="text" name="emailId" id="emailId"/>
 								</div>
 								<div class="form-group">
 									<label>Mobile No</label> <input class="form-control"
@@ -142,8 +142,7 @@
 								</div>
 								
 								
-								<button type="submit" class="btn btn-success" onclick="return confirm('Are you sure Do you want to add this product?');">Add
-									Product</button>
+								<button type="submit" class="btn btn-success" onclick="return confirm('Are you sure Do you want to add this product?');">Save</button>
 								<button type="reset" class="btn btn-danger">Reset</button>
 							</form>
 						</div>
@@ -216,6 +215,7 @@
 		 var saleQuantity = parseInt($("#salesQuantity").val(), 10);
 
 		    if (saleQuantity > totalQuantity) {
+		    	alert("Sales Quantity cannot greatere than Stock Quantity")
 		        $("#salesQuantity").val(""); // clear input
 		        $("#salesQuantity").focus();
 		    }
