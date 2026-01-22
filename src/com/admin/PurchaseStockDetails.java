@@ -42,12 +42,12 @@ public class PurchaseStockDetails extends HttpServlet{
 				pending_stock_quantity=	captchResultSet.getString(1);
 			}
 			Double updateValue=Double.parseDouble(pending_stock_quantity)+Double.parseDouble(newStockDetails);
-			int a=DatabaseConnection.insertUpdateFromSqlQuery("UPDATE tbl_product_inventory SET stock_quantity='"+updateValue+"' WHERE id="+productId);
+			int a=DatabaseConnection.insertUpdateFromSqlQuery("UPDATE tbl_product_inventory SET stock_quantity='"+updateValue+"',price='"+price+"',mrp_price='"+mprice+"',description='"+description+"',product_category='"+category+"' WHERE id="+productId);
 			
 			
 			int i = DatabaseConnection.insertUpdateFromSqlQuery("insert into tbl_puchase_stock_details(product_name,price,product_description,mrp_price,stock_quantity,active_status,create_date,product_category,new_stock_details) values('" + productName+ "','" + price + "','"+description+"','" + mprice + "','" + quantity + "','"+status+"','"+currentDateTime+"','"+category+"','"+newStockDetails+"')");
 			if (i > 0) {
-				String success = "Product added successfully.";
+				String success = "Stock Updated successfully.";
 				session.setAttribute("message", success);
 				response.sendRedirect("admin-all-orders.jsp");
 			}

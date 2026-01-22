@@ -53,13 +53,28 @@
 	</div>
 	<jsp:include page="adminHeader.jsp"></jsp:include>
 	<!-- MENU SECTION END-->
-	<form role="form" action="PurchaseStockDetails" method="post">
 	<div class="content-wrapper">
 		<div class="container-fluid">
+		<div class="row pad-botm">
+				<div class="col-md-12">
+					<h4 class="header-line">Add Product</h4>
+
+				</div>
+			</div>
+			<%
+				String message = (String) session.getAttribute("message");
+				if (message != null) {
+				session.removeAttribute("message");
+			%>
+			<div class="alert alert-danger" id="success">Stock Updated successfully.</div>
+			<%
+				}
+			%>
 			<div class="row pad-botm">
 				<div class="col-md-12">
 					<h4 class="header-line">Purchase Stock Details</h4>
 				</div>
+				<form role="form" action="PurchaseStockDetails" method="post">	
 				<div class="row">
 				  <div class="col-md-3">
 					<div class="form-group">
@@ -145,10 +160,10 @@
 					</div>
 				</div>
 				</div>
+			</form>	
 			</div>
 		</div>
 	</div>
-	</form>
 	<!-- CONTENT-WRAPPER SECTION END-->
 	<jsp:include page="admin-footer.jsp"></jsp:include>
 	<!-- FOOTER SECTION END-->
